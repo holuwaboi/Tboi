@@ -1,0 +1,16 @@
+.content{
+    height: 300px;
+    width: 300px;
+    border: 2px solid gray;
+    background-color: aqua;
+    transition: 3s ease-in-out;
+}
+
+
+.hide-div{
+    opacity: 0;
+}
+
+.btn-2{
+    display: none;
+}

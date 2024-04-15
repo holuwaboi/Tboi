@@ -1,0 +1,51 @@
+.home{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.home img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+
+}
+
+.form-section{
+    width: 400px;
+    height: 80%;
+    margin-top: 140px;
+    background-color: blue;
+}
+
+.logo, .log-intext{
+    display: flex;
+    /* justify-content: center; */
+    width: 100%;
+
+
+
+}
+
+
+.form{
+    width:100% ;
+}
+
+.logo img{
+    width:200px;
+    height:50px;
+    /* margin-top: 2rem; */
+}
+
+.log-intext p{
+    font-size: 10px;
+    color: black;
+
+}
+
+

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+<header>
+    <h6 class="timerelement"></h6>
+    <!-- <img src="" alt="logo"> -->
+     <h1>Sahar's Quiz</h1>
+</header>  
+<div class="quiz-container">
+    <div class="questions">
+        <h2 class="question"> </h2>
+
+        <ol type="A">
+            <li class="option" id="option0"><span class="option0"onclick="CalculateScore(this)"></span></li>
+            <li class="option" id="option1"><span class="option1"onclick="CalculateScore(this)"></span></li>
+            <li class="option" id="option2"><span class="option2"onclick="CalculateScore(this)"></span></li>
+            <li class="option" id="option3"><span class="option3"onclick="CalculateScore(this)"></span></li>
+
+            
+
+
+
+        </ol>
+        <h4 class="stat"></h4>
+
+    </div>
+    <div class="buttons">
+        <button class="next">Next</button>
+    </div>
+
+   
+
+    <div class="btc">
+        
+    </div>
+    <button class="btc">previous</button>
+
+</div>  
+
+
+
+<div id="scoreboard">
+    <h2 id="score-title">Your Score</h2>
+    <h2 id="score">0/5</h2>
+    <button type="" id="Score-button" onclick="backToQuiz()">Back to Quiz</button>
+    <button type="" id="check-answers">Check Answer</button>
+
+    <div class="answerboard">
+        <h2>Answers</h2>
+        <ol id="Answers">
+
+        </ol>
+
+    </div>
+
+</div>
+
+<div>
+
+</div>
+
+
+
+
+
+
+
+  <script src="quiz.js" defer></script>  
+</body>
+</html>

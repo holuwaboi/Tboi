@@ -1,0 +1,255 @@
+
+#fb{
+    height: 20vh;
+    width: 20rem;
+    align-items: center;
+    justify-content: center;
+    margin-top: 190px;
+    position: absolute;
+    left: 10rem;
+    
+
+
+
+}
+
+.wd{
+    font-size: 22px;
+    font-family: Helvetica, Arial, sans-serif;;
+    /* float: left; */
+    margin-top: 275px;
+    position: absolute;
+    left: 12rem;
+    display: inline-block;
+    /* text-align: center; */
+    line-height: 28px;
+    width: auto;
+    letter-spacing: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+    direction: ltr;
+    font-style: normal;
+    
+
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color:  #e9ecf1;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    /* object-fit: cover; */
+}
+
+.box{
+    background-color: #fff;
+    width:396px;
+    height:58vh;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+    display: flex;
+    position: absolute;
+    right: 200px;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+    box-sizing: border-box
+
+    
+    
+
+
+
+
+}
+
+#email{
+    width: 370px;
+    height: 50px;
+    border-radius: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    top: 11px;
+    left: 10px;
+    display: flex;
+    position: absolute;
+    /* box-shadow: #fff; */
+    /* background: #FFFFFF; */
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    font-size: larger;
+    
+
+
+
+
+    
+   
+}
+
+#password{
+    width: 370px;
+    height: 50px;
+    border-radius: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    left: 10px;
+    top: 25%;
+    display: flex;
+    position: absolute;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    font-size: larger;
+    
+
+}
+
+.field{
+    width: 350px;
+    height: 39px;
+    border-radius: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    left: 10px;
+    top: 47%;
+    display: flex;
+    position: absolute;
+    background-color:rgb(62, 62, 248);
+    color: white;
+    border: cornflowerblue;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    
+
+}
+
+
+
+.field h2 :hover{
+    color: aliceblue;
+   
+}
+
+.word{
+    text-align: center;
+    color: #1c1e21;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    /* background-color: black; */
+    position:relative;
+    justify-content: center;
+    left: 20px;
+    top: 0.001vh;
+    margin-top: 150px;
+    width: 90%;
+    font-size: small;
+    font-style: normal;
+    direction: ltr;
+    line-height: 1.34
+
+}
+
+.word:hover{
+    /* -ms-text-underline-position: inherit; */
+    cursor: pointer;
+    font-style: normal;
+
+}
+
+
+
+
+
+/* .h3{   
+     display: block;
+} */
+
+.home-container hr{
+    width: 60vh;
+    top: 5rem;
+}
+
+.fd{
+    height: 30px;
+    width: 156px;
+    position: absolute;
+    align-items: center;
+    background-color: rgb(80, 212, 80);
+    border-radius: 0.4rem;
+    /* list-style: none; */
+    /* margin-left: 54rem; */
+    top: 18.5rem;
+    box-shadow: none;
+    cursor: pointer;
+    float: right;
+    left: 7rem;
+    border: green;
+
+}
+
+.fd:hover{
+    background: darkgreen;
+    border: 1px solid green;
+}
+
+/* .h3{
+    color: black;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    top: 100vh;
+    
+    
+    
+
+} */
+
+.sp{
+    height: 20px;
+    color:white;
+    font-size: larger;
+    fill: white;
+    /* float: inline-end;
+    flex-wrap: wrap; */
+    text-align: center;
+    font-size: 105%;
+    font-stretch: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size-adjust: initial;
+
+   
+
+}
+
+
+.footer{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    right: 250px;
+    position:absolute;
+    justify-content: center;
+    top: 550px;
+    width: auto;
+    font-size: smaller;
+    
+    
+    
+    
+}
+
+

@@ -1,0 +1,64 @@
+.ball{
+    background-color: red;
+    color: white;
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,15rem);
+
+}
+
+.ball h2{
+    font-size: 3rem;
+
+
+}
+
+.divone{
+    background-color: blue;
+}
+
+.divtwo{
+    background-color: rebeccapurple;
+}
+
+.divthree{
+    background-color: peru;
+}
+
+
+/* media querry for tablets */
+@media screen and (max-width:830px){
+    .ball{
+        background: rgb(106, 0, 255);
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .diveone{
+        display: none;
+    
+    }
+
+    .ball h2{
+        font-size: 1rem;
+        display: block;
+    }
+
+
+
+}
+
+/* media querry for mobile */
+
+@media screen and (max-width:600px) {
+    .ball{
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+}
+
+
+
+
+
+
